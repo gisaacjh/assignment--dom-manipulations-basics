@@ -25,9 +25,9 @@ document.querySelector("#color-circle button").addEventListener('click',function
   // el interruptor es un click
   var answerColorBox = document.querySelector('#circle-bw')
   contador ++
-  if (answerColorBox.innerHTML % 2 === 0) {
+  if (contador % 2 !== 0) {
       answerColorBox.style.background = 'black'
-  } else {
+  } else if (contador % 2 === 0) {
       answerColorBox.style.background = 'white'
 }
 
