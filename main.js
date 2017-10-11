@@ -65,7 +65,7 @@ document.querySelector("#remove button").addEventListener('click',function(){
   var removeClass = document.querySelector(".inactive")
   for (var i = 0; i < listIteration.length; i++) {
     if (listIteration[i] === removeClass.textContent) {
-      removeClass.textContent.displayNon
+      removeClass.textContent.
     }
   }
 
