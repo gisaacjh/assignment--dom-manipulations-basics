@@ -32,20 +32,44 @@ document.querySelector("#color-circle button").addEventListener('click',function
 }
 
 })
-var contador = 0
+
+// var initialSize = answerSize.style.padding = "0px 0px";
+
 document.querySelector("#blow-up button").addEventListener('click',function(){
   // TASK #4}
-  //manipular el div para que el circulo duplique su altura y anchura
-  //el circulo debe ser mayor o igual a 320px
+  // manipular el div para que el circulo duplique su altura y anchura
+  // el circulo debe ser mayor o igual a 320px
   // en ese momento debe retornara su tamaño original 40px x 40px
-  var answerSize = document.querySelector('circle-red')
-  contador ++
-  answerSize.style.
-  console.log('circle-red');
+  // añadir un elemento del DOM
+  // declarar una funcion que diga que pasará
+  // Añadir un evento al elemento
+  var answerSize = document.querySelector('.circle-red')
+
+   var startSize = answerSize.style.padding = "0px 0px"
+   var finalSize = answerSize.style.padding = "160px 160px"
+   if ( startSize === "0px 0px") {
+     finalSize
+   } else if (finalSize !== "0px 0px") {
+     startSize
+   }
+
 })
 
 document.querySelector("#remove button").addEventListener('click',function(){
   // TASK #5
+  // hacer un array de la lista
+  // iterar sobre la lista
+  // eliminar los elementos de la clase "inactivos"
+  var listIteration = document.querySelectorAll("#user-list li")
+  console.log(listIteration);
+  var removeClass = document.querySelector(".inactive")
+  for (var i = 0; i < listIteration.length; i++) {
+    if (listIteration[i] === removeClass.textContent) {
+      removeClass.textContent.displayNon
+    }
+  }
+
+
 })
 
 
